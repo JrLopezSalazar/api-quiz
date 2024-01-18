@@ -1,12 +1,371 @@
-[
+{
+  "categorias": [
     {
-        "id": 1,
-        "category": "html"
- 
+      "nombre": "html",
+      "niveles": [
+        {
+          "nombre": "facil",
+          "preguntas": [
+            {
+              "id": "1",
+              "pregunta": "¿Cuál es la versión más reciente de HTML?",
+              "opciones": ["HTML4", "HTML5", "XHTML"],
+              "respuesta_correcta": "HTML5"
+            },
+            {
+              "id": "2",
+              "pregunta": "¿Cuál es la etiqueta principal para el contenido de HTML?",
+              "opciones": ["<body>", "<head>", "<html>"],
+              "respuesta_correcta": "<body>"
+            },
+            {
+              "id": "3",
+              "pregunta": "¿Cómo se crea un enlace (hipervínculo) en HTML?",
+              "opciones": ["<link>", "<a>", "<href>"],
+              "respuesta_correcta": "<a>"
+            },
+            {
+              "id": "4",
+              "pregunta": "¿Cuál es la etiqueta para insertar una imagen en HTML?",
+              "opciones": ["<img>", "<picture>", "<src>"],
+              "respuesta_correcta": "<img>"
+            },
+            {
+              "id": "5",
+              "pregunta": "¿Qué significa la sigla 'URL' en HTML?",
+              "opciones": [
+                " Universal Resource Locator",
+                "Uniform Resource Locator",
+                "Universal Reference Locator"
+              ],
+              "respuesta_correcta": "Uniform Resource Locator"
+            },
+            {
+              "id": "6",
+              "pregunta": "¿Cómo se crea una tabla en HTML?",
+              "opciones": ["<table>", "<tr>", "<td>"],
+              "respuesta_correcta": "<table>"
+            },
+            {
+              "id": "7",
+              "pregunta": "¿Cuál es la etiqueta para crear un formulario en HTML?",
+              "opciones": ["<form>", "<input>", "<fieldset>"],
+              "respuesta_correcta": "<form>"
+            },
+            {
+              "id": "8",
+              "pregunta": "¿Cuál es la etiqueta para agregar un salto de línea en HTML?",
+              "opciones": ["<nl>", "<break>", "<br>"],
+              "respuesta_correcta": "<br>"
+            },
+            {
+              "id": "9",
+              "pregunta": "¿Cómo se crea un botón en HTML?",
+              "opciones": ["<button>", "<submit>", "<input>"],
+              "respuesta_correcta": "<button>"
+            },
+            {
+              "id": "10",
+              "pregunta": "¿Cuál es el propósito de la etiqueta <meta charset='UTF-8'> en HTML?",
+              "opciones": [
+                "Establecer el estilo de la página",
+                "Definir el conjunto de caracteres de la página",
+                "Crear un enlace a un archivo externo"
+              ],
+              "respuesta_correcta": "Definir el conjunto de caracteres de la página"
+            }
+          ]
+        },
+        {
+          "nombre": "intermediio",
+          "preguntas": [
+            {
+              "id": "11",
+              "pregunta": "¿Cuál de las siguientes etiquetas se utiliza para insertar una línea horizontal en HTML?",
+              "opciones": ["<line>", "<hr>", "<break>"],
+              "respuesta_correcta": "<hr>"
+            },
+            {
+              "id": "12",
+              "pregunta": " ¿Qué significa el acrónimo SVG en el contexto de HTML?",
+              "opciones": [
+                "Scalable Vector Graphics.",
+                "Scripting Video Graphics.",
+                "Styleable Visual Grid."
+              ],
+              "respuesta_correcta": "Scalable Vector Graphics."
+            },
+            {
+              "id": "13",
+              "pregunta": " ¿Qué elemento se utiliza para definir una lista no ordenada en HTML?",
+              "opciones": ["<ul>", "<ol>", "<dl>"],
+              "respuesta_correcta": "<ul>"
+            },
+            {
+              "id": "14",
+              "pregunta": "¿Cuál es el propósito de la etiqueta <aside> en HTML5?",
+              "opciones": [
+                "Definir un encabezado para la página.",
+                "Marcar contenido independiente del contenido principal.",
+                "Crear un pie de página."
+              ],
+              "respuesta_correcta": "Marcar contenido independiente del contenido principal."
+            },
+            {
+              "id": "15",
+              "pregunta": " ¿Cuál de las siguientes etiquetas se utiliza para definir una tabla en HTML?",
+              "opciones": ["<table>", "<grid>", "<tab>"],
+              "respuesta_correcta": "<table>"
+            }
+          ]
+        },
+        {
+          "nombre": "dificil",
+          "preguntas": [
+            {
+              "id": "16",
+              "pregunta": "¿Cuál es el propósito principal de la etiqueta <canvas> en HTML5?",
+              "opciones": [
+                " Crear gráficos vectoriales.",
+                " Reproducir archivos de audio.",
+                "Definir un área gráfica para dibujar gráficos mediante JavaScript."
+              ],
+              "respuesta_correcta": " Definir un área gráfica para dibujar gráficos mediante JavaScript."
+            },
+            {
+              "id": "17",
+              "pregunta": " ¿Qué hace el atributo defer en la etiqueta <script> de HTML?",
+              "opciones": [
+                "Descarga el script de forma asíncrona.",
+                "Posterga la ejecución del script hasta que se complete el análisis del documento HTML.",
+                "Deshabilita la ejecución del script."
+              ],
+              "respuesta_correcta": " Posterga la ejecución del script hasta que se complete el análisis del documento HTML."
+            },
+            {
+              "id": "18",
+              "pregunta": "¿Cuál de las siguientes declaraciones sobre HTML5 Web Workers es correcta?",
+              "opciones": [
+                "Permiten la ejecución de código JavaScript en un hilo separado.",
+                "Solo pueden ser utilizados para la carga de imágenes.",
+                "Reemplazan por completo el uso de JavaScript en el navegador."
+              ],
+              "respuesta_correcta": " Permiten la ejecución de código JavaScript en un hilo separado."
+            },
+            {
+              "id": "19",
+              "pregunta": " ¿Cuál es la función de la etiqueta <figcaption> en HTML5?",
+              "opciones": [
+                " Definir la fuente de una imagen.",
+                "Proporcionar una leyenda para un elemento <figure>.",
+                "Establecer el tamaño de una figura."
+              ],
+              "respuesta_correcta": "Proporcionar una leyenda para un elemento <figure>."
+            },
+            {
+              "id": "20",
+              "pregunta": "¿Qué hace la propiedad CSS pointer-events: none; cuando se aplica a un elemento HTML?",
+              "opciones": [
+                "Desactiva los eventos del puntero para el elemento y sus descendientes.",
+                "Activa los eventos del puntero solo para el elemento.",
+                "Cambia el cursor del puntero al valor predeterminado"
+              ],
+              "respuesta_correcta": "Desactiva los eventos del puntero para el elemento y sus descendientes."
+            }
+          ]
+        }
+      ]
     },
     {
-        "id": 2,
-        "category": "html"
- 
+      "nombre": "CSS",
+      "niveles": [
+        {
+          "nombre": "facil",
+          "preguntas": [
+            {
+              "id": "21",
+              "question": "¿Qué significa CSS?",
+              "options": [
+                "Cascading Style Sheets",
+                "Computer Style Sheets",
+                "Colorful Style Sheets"
+              ],
+              "correctAnswer": "Cascading Style Sheets"
+            },
+            {
+              "id": "22",
+              "question": "¿Cómo se selecciona un elemento por su ID en CSS?",
+              "options": ["#elemento", ".elemento", "$elemento"],
+              "correctAnswer": "#elemento"
+            },
+            {
+              "id": "23",
+              "question": "¿Cuál es la propiedad CSS que se utiliza para cambiar el color del texto?",
+              "options": ["color", "background-color", "text-color"],
+              "correctAnswer": "color"
+            },
+            {
+              "id": "24",
+              "question": "¿Qué propiedad CSS se utiliza para cambiar el tamaño de la fuente de un elemento?",
+              "options": ["font-size", "text-size", "font-style"],
+              "correctAnswer": "font-size"
+            },
+            {
+              "id": "25",
+              "question": "¿Cuál es la forma correcta de comentar en CSS?",
+              "options": [
+                "/* Comentario */",
+                "// Comentario //",
+                "# Comentario #"
+              ],
+              "correctAnswer": "/* Comentario */"
+            },
+            {
+              "id": "26",
+              "question": "¿Cómo se aplica un estilo CSS a todos los elementos `<p>`?",
+              "options": ["p { style }", ".p { style }", "p.style"],
+              "correctAnswer": "p { style }"
+            },
+            {
+              "id": "27",
+              "question": "¿Cuál es la propiedad CSS que se utiliza para cambiar el tipo de letra?",
+              "options": ["font-family", "text-family", "font-type"],
+              "correctAnswer": "font-family"
+            },
+            {
+              "id": "28",
+              "question": "¿Cómo se establece el fondo transparente en CSS?",
+              "options": [
+                "background: transparent;",
+                "background-color: transparent;",
+                "opacity: 0;"
+              ],
+              "correctAnswer": "background: transparent;"
+            },
+            {
+              "id": "29",
+              "question": "¿Cuál es la propiedad CSS que se utiliza para centrar un elemento horizontalmente?",
+              "options": [
+                "text-align: center;",
+                "margin: auto;",
+                "horizontal-align: center;"
+              ],
+              "correctAnswer": "margin: auto;"
+            },
+            {
+              "id": "30",
+              "question": "¿Cuál es la forma correcta de enlazar un archivo CSS externo?",
+              "options": [
+                "<css src='styles.css'>",
+                "<link rel='stylesheet' href='styles.css'>",
+                "<style src='styles.css'>"
+              ],
+              "correctAnswer": "<link rel='stylesheet' href='styles.css'>"
+            }
+          ]
+        },
+        {
+          "nombre": "intermediio",
+          "preguntas": [
+            {
+              "id": "31",
+              "question": "¿Cuál es la diferencia entre `margin` y `padding` en CSS?",
+    "options": ["Ambos afectan el espacio interior del elemento.", "`Margin` afecta el espacio exterior y `padding` afecta el espacio interior.", "`Padding` afecta el espacio exterior y `margin` afecta el espacio interior."],
+    "correctAnswer": "`Margin` afecta el espacio exterior y `padding` afecta el espacio interior."
+            },
+            {
+              "id": "32",
+              "question": "¿Qué hace la propiedad `position: relative;` en CSS?",
+              "options": ["Coloca el elemento en relación con su posición original.", "Coloca el elemento en relación con el borde del elemento padre.", "Coloca el elemento en la esquina superior izquierda de la página."],
+              "correctAnswer": "Coloca el elemento en relación con su posición original."
+            },
+            {
+              "id": "33",
+              "question": "¿Cuál es la diferencia entre `display: block;` y `display: inline;`?",
+    "options": ["`Block` hace que el elemento ocupe todo el ancho disponible, mientras que `inline` solo ocupa el ancho necesario.", "`Inline` hace que el elemento sea un bloque de línea, mientras que `block` lo convierte en un elemento en línea.", "No hay diferencia entre `block` e `inline`."],
+    "correctAnswer": "`Block` hace que el elemento ocupe todo el ancho disponible, mientras que `inline` solo ocupa el ancho necesario."
+            },
+            {
+              "id": "34",
+              "question": "¿Cómo se hace que un elemento tenga esquinas redondeadas en CSS?",
+    "options": ["`border-radius`", "`corner-radius`", "`round-corners`"],
+    "correctAnswer": "`border-radius`"
+            },
+            {
+              "id": "35",
+              "question": "¿Cuál es la propiedad CSS utilizada para aplicar sombras a los elementos?",
+    "options": ["`box-shadow`", "`text-shadow`", "`element-shadow`"],
+    "correctAnswer": "`box-shadow`"
+            }
+          ]
+        },
+        {
+          "nombre": "dificil",
+          "preguntas": [
+            {
+                "id": 36,
+                "question": "¿Cuál es la función principal de la propiedad CSS `flex`?",
+                "options": ["Crear un borde flexible alrededor de un elemento.", "Establecer un diseño de cuadrícula flexible en un contenedor.", "Definir un modelo de caja flexible para un elemento."],
+                "correctAnswer": "Definir un modelo de caja flexible para un elemento."
+              },
+              {
+                "id": 37,
+                "question": "¿Qué propiedad CSS se utiliza para cambiar el color del texto de un enlace no visitado?",
+                "options": ["`text-color`", "`link-color`", "`color`"],
+                "correctAnswer": "`color`"
+              },
+              {
+                "id": 38,
+                "question": "En CSS, ¿qué significa la propiedad `z-index`?",
+                "options": ["La posición vertical de un elemento.", "La posición horizontal de un elemento.", "El índice de apilamiento de un elemento."],
+                "correctAnswer": "El índice de apilamiento de un elemento."
+              },
+              {
+                "id": 39,
+                "question": "¿Cómo se selecciona un elemento `div` con la clase `container` en CSS?",
+                "options": ["`div.container`", "`.container div`", "`#container div`"],
+                "correctAnswer": "`div.container`"
+              },
+              {
+                "id": 40,
+                "question": "¿Cuál es el propósito de la propiedad CSS `opacity`?",
+                "options": ["Cambiar la opacidad de fondo de un elemento.", "Controlar la transparencia de un elemento.", "Establecer la opacidad de texto de un elemento."],
+                "correctAnswer": "Controlar la transparencia de un elemento."
+              },
+              {
+                "id": 41,
+                "question": "¿Qué unidad de medida se utiliza comúnmente para el tamaño de fuente en CSS?",
+                "options": ["`em`", "`px`", "`pt`"],
+                "correctAnswer": "`px`"
+              },
+              {
+                "id": 42,
+                "question": "¿Cómo se aplica un estilo CSS a un elemento cuando el mouse está sobre él?",
+                "options": ["`:hover`", "`.hover`", "`hover:`"],
+                "correctAnswer": "`:hover`"
+              },
+              {
+                "id": 43,
+                "question": "¿Qué propiedad CSS se utiliza para cambiar el tipo de cursor en un elemento?",
+                "options": ["`cursor-type`", "`mouse-cursor`", "`cursor`"],
+                "correctAnswer": "`cursor`"
+              },
+              {
+                "id": 44,
+                "question": "¿Cuál es la propiedad CSS utilizada para centrar un elemento horizontalmente?",
+                "options": ["`text-align`", "`margin-center`", "`margin: auto;`"],
+                "correctAnswer": "`margin: auto;`"
+              },
+              {
+                "id": 45,
+                "question": "¿Cómo se hace que un elemento tenga una transición suave en CSS?",
+                "options": ["`transition: smooth;`", "`transition-duration: ease;`", "`transition: property duration timing-function;`"],
+                "correctAnswer": "`transition: property duration timing-function;`"
+              }
+
+          ]
+        }
+      ]
     }
-]
+  ]
+}
