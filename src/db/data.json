@@ -366,6 +366,408 @@
           ]
         }
       ]
+    },
+    {
+      "nombre": "javascript",
+      "niveles": [
+        {
+          "nombre": "facil",
+          "preguntas": [
+            {
+                "id": 46,
+                "question": "¿Cuál es el lenguaje de programación que se utiliza para programar comportamientos del lado del cliente en un navegador web?",
+                "options": ["Java", "JavaScript", "Python"],
+                "correctAnswer": "JavaScript"
+              },
+              {
+                "id": 47,
+                "question": "¿Cómo se declara una variable en JavaScript?",
+                "options": ["var x;", "variable x;", "x = var;"],
+                "correctAnswer": "var x;"
+              },
+              {
+                "id": 48,
+                "question": "¿Cuál es la forma correcta de comentar una línea en JavaScript?",
+                "options": ["/* Este es un comentario */", "// Este es un comentario", "# Este es un comentario"],
+                "correctAnswer": "// Este es un comentario"
+              },
+              {
+                "id": 49,
+                "question": "¿Qué función se utiliza para imprimir mensajes en la consola en JavaScript?",
+                "options": ["console.log()", "print()", "log()"],
+                "correctAnswer": "console.log()"
+              },
+              {
+                "id": 50,
+                "question": "¿Cómo se llama el tipo de dato que puede tener los valores `true` o `false`?",
+                "options": ["Boolean", "String", "Number"],
+                "correctAnswer": "Boolean"
+              },
+              {
+                "id": 51,
+                "question": "¿Cuál es el resultado de la expresión `5 + '5'` en JavaScript?",
+                "options": ["55", "10", "Error"],
+                "correctAnswer": "55"
+              },
+              {
+                "id": 52,
+                "question": "¿Qué estructura de control se utiliza para tomar decisiones en JavaScript?",
+                "options": ["for loop", "if statement", "while loop"],
+                "correctAnswer": "if statement"
+              },
+              {
+                "id": 53,
+                "question": "¿Cuál es el operador de asignación en JavaScript?",
+                "options": ["=", "==", ":="],
+                "correctAnswer": "="
+              },
+              {
+                "id": 54,
+                "question": "¿Cómo se llama la función que se ejecuta automáticamente cuando se carga una página web?",
+                "options": ["main()", "start()", "onload()"],
+                "correctAnswer": "onload()"
+              },
+              {
+                "id": 55,
+                "question": "¿Cuál es la palabra clave utilizada para declarar una función en JavaScript?",
+                "options": ["function", "define", "func"],
+                "correctAnswer": "function"
+              }
+          ]
+        },
+        {
+          "nombre": "intermediio",
+          "preguntas": [
+            {
+                "id": 56,
+                "question": "¿Cuál es el propósito de la función `map` en JavaScript?",
+                "options": ["Iterar sobre un objeto", "Crear un nuevo array transformando cada elemento", "Enlazar eventos a elementos HTML"],
+                "correctAnswer": "Crear un nuevo array transformando cada elemento"
+              },
+              {
+                "id": 57,
+                "question": "¿Qué método se utiliza para agregar un elemento al final de un array en JavaScript?",
+                "options": ["append()", "push()", "add()"],
+                "correctAnswer": "push()"
+              },
+              {
+                "id": 58,
+                "question": "¿Cuál es la diferencia entre `let` y `const` en la declaración de variables?",
+                "options": ["No hay diferencia", "let permite reasignar valores, const no", "const es obsoleta"],
+                "correctAnswer": "let permite reasignar valores, const no"
+              },
+              {
+                "id": 59,
+                "question": "¿Cómo se llama el proceso de combinar dos o más arrays en uno solo en JavaScript?",
+                "options": ["Concatenación", "Unión", "Fusión"],
+                "correctAnswer": "Concatenación"
+              },
+              {
+                "id": 60,
+                "question": "En JavaScript, ¿cómo se puede prevenir que un formulario se envíe cuando se presiona el botón de envío?",
+                "options": ["event.stopPropagation()", "event.preventDefault()", "return false;"],
+                "correctAnswer": "event.preventDefault()"
+              }
+          ]
+        },
+        {
+          "nombre": "dificil",
+          "preguntas": [
+            {
+                "id": 61,
+                "question": "¿Cuál es el propósito principal del método `reduce` en JavaScript?",
+                "options": ["Eliminar elementos duplicados de un array", "Realizar operaciones en cada elemento y reducirlos a un único valor", "Ordenar un array alfabéticamente"],
+                "correctAnswer": "Realizar operaciones en cada elemento y reducirlos a un único valor"
+              },
+              {
+                "id": 62,
+                "question": "En JavaScript, ¿cómo se puede clonar un objeto?",
+                "options": ["object.clone()", "Object.copy()", "Object.assign({}, obj)"],
+                "correctAnswer": "Object.assign({}, obj)"
+              },
+              {
+                "id": 63,
+                "question": "¿Cuál es el propósito de la función `setTimeout` en JavaScript?",
+                "options": ["Esperar un tiempo antes de ejecutar una función", "Definir un temporizador para la página web", "Configurar el intervalo entre solicitudes HTTP"],
+                "correctAnswer": "Esperar un tiempo antes de ejecutar una función"
+              },
+              {
+                "id": 64,
+                "question": "En JavaScript, ¿qué hace el operador `===`?",
+                "options": ["Comparación estricta de valor y tipo", "Asignación de valor", "Comparación de valor sin tener en cuenta el tipo"],
+                "correctAnswer": "Comparación estricta de valor y tipo"
+              },
+              {
+                "id": 65,
+                "question": "¿Cuál es la función del método `splice` en un array en JavaScript?",
+                "options": ["Eliminar elementos del array", "Agregar elementos al array", "Eliminar, reemplazar o agregar elementos en posiciones específicas del array"],
+                "correctAnswer": "Eliminar, reemplazar o agregar elementos en posiciones específicas del array"
+              },
+              {
+                "id": 66,
+                "question": "En JavaScript, ¿cómo se declara una función anónima?",
+                "options": ["function myFunction() {}", "const myFunction = function() {}", "const myFunction = () => {}"],
+                "correctAnswer": "const myFunction = function() {}"
+              },
+              {
+                "id": 67,
+                "question": "¿Qué método se utiliza para convertir una cadena a minúsculas en JavaScript?",
+                "options": ["toLowerCase()", "toLower()", "convertLowerCase()"],
+                "correctAnswer": "toLowerCase()"
+              },
+              {
+                "id": 68,
+                "question": "¿Cuál es el resultado de `typeof null` en JavaScript?",
+                "options": ["'object'", "'null'", "'undefined'", "'string'"],
+                "correctAnswer": "'object'"
+              },
+              {
+                "id": 69,
+                "question": "En JavaScript, ¿qué hace el operador ternario (`? :`)?",
+                "options": ["Es un operador de comparación", "Es un operador lógico", "Es un operador condicional"],
+                "correctAnswer": "Es un operador condicional"
+              },
+              {
+                "id": 70,
+                "question": "¿Cómo se puede realizar una redirección a otra página web en JavaScript?",
+                "options": ["window.redirect('http://nuevapagina.com')", "location.navigate('http://nuevapagina.com')", "window.location.href = 'http://nuevapagina.com'"],
+                "correctAnswer": "window.location.href = 'http://nuevapagina.com'"
+              }
+
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "phyton",
+      "niveles": [
+        {
+          "nombre": "facil",
+          "preguntas": [
+            {
+                "id": 71,
+                "question": "¿Cuál es la función `print()` en Python utilizada para?",
+                "options": ["Realizar operaciones matemáticas", "Mostrar mensajes en la consola", "Definir variables"],
+                "correctAnswer": "Mostrar mensajes en la consola"
+              },
+              {
+                "id": 72,
+                "question": "En Python, ¿cómo se comenta una línea de código?",
+                "options": ["// Comentario", "# Comentario", "/* Comentario */"],
+                "correctAnswer": "# Comentario"
+              },
+              {
+                "id": 73,
+                "question": "¿Cuál es la función de la palabra clave `if` en Python?",
+                "options": ["Definir una función", "Manejar excepciones", "Realizar una condición lógica"],
+                "correctAnswer": "Realizar una condición lógica"
+              },
+              {
+                "id": 74,
+                "question": "En Python, ¿cómo se define una lista?",
+                "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}"],
+                "correctAnswer": "[1, 2, 3]"
+              },
+              {
+                "id": 75,
+                "question": "¿Qué tipo de lenguaje de programación es Python?",
+                "options": ["Lenguaje de programación orientado a objetos", "Lenguaje de programación de bajo nivel", "Lenguaje de programación interpretado"],
+                "correctAnswer": "Lenguaje de programación interpretado"
+              },
+              {
+                "id": 76,
+                "question": "¿Cuál es la función de la palabra clave `for` en Python?",
+                "options": ["Declarar una función", "Iterar sobre una secuencia", "Manejar excepciones"],
+                "correctAnswer": "Iterar sobre una secuencia"
+              },
+              {
+                "id": 77,
+                "question": "En Python, ¿cómo se define una función?",
+                "options": ["function myFunction():", "def myFunction():", "method myFunction():"],
+                "correctAnswer": "def myFunction():"
+              },
+              {
+                "id": 78,
+                "question": "¿Cuál es el operador de asignación en Python?",
+                "options": ["=", "==", "+="],
+                "correctAnswer": "="
+              },
+              {
+                "id": 79,
+                "question": "¿Cómo se imprime el contenido de una variable en Python?",
+                "options": ["print(variable)", "console.log(variable)", "echo variable"],
+                "correctAnswer": "print(variable)"
+              },
+              {
+                "id": 80,
+                "question": "En Python, ¿cómo se solicita la entrada del usuario?",
+                "options": ["input()", "readInput()", "getUserInput()"],
+                "correctAnswer": "input()"
+              }
+          ]
+        },
+        {
+          "nombre": "intermediio",
+          "preguntas": [
+            {
+                "id": 81,
+                "question": "¿Qué es un decorador en Python?",
+                "options": [
+                  "Una función que decora el código con colores",
+                  "Un patrón de diseño que permite agregar funcionalidades a funciones o métodos",
+                  "Una variable especial utilizada en programación funcional"
+                ],
+                "correctAnswer": "Un patrón de diseño que permite agregar funcionalidades a funciones o métodos"
+              },
+              {
+                "id": 82,
+                "question": "¿Qué es la comprensión de listas en Python?",
+                "options": [
+                  "Una forma de expresar una lista de manera concisa",
+                  "La capacidad de una lista para comprender otros tipos de datos",
+                  "Un método para realizar operaciones matemáticas con listas"
+                ],
+                "correctAnswer": "Una forma de expresar una lista de manera concisa"
+              },
+              {
+                "id": 83,
+                "question": "En Python, ¿qué es un generador?",
+                "options": [
+                  "Una función que crea gráficos",
+                  "Un objeto iterable que se genera sobre la marcha",
+                  "Un tipo de variable global"
+                ],
+                "correctAnswer": "Un objeto iterable que se genera sobre la marcha"
+              },
+              {
+                "id": 84,
+                "question": "¿Cuál es la diferencia entre `append()` y `extend()` en Python?",
+                "options": [
+                  "Ambas funciones hacen lo mismo",
+                  "`append()` agrega un elemento a la lista, mientras que `extend()` agrega varios elementos",
+                  "No hay diferencia, son sinónimos"
+                ],
+                "correctAnswer": "`append()` agrega un elemento a la lista, mientras que `extend()` agrega varios elementos"
+              },
+              {
+                "id": 85,
+                "question": "En Python, ¿cómo se manejan las excepciones?",
+                "options": [
+                  "Con la palabra clave `catch`",
+                  "Con bloques `try`, `catch`, `finally`",
+                  "No es necesario manejar excepciones en Python"
+                ],
+                "correctAnswer": "Con bloques `try`, `catch`, `finally`"
+              }
+          ]
+        },
+        {
+          "nombre": "dificil",
+          "preguntas": [
+            {
+                "id": 86,
+                "question": "¿Qué es la recursión en Python?",
+                "options": [
+                  "Un error de programación",
+                  "Una técnica en la que una función se llama a sí misma",
+                  "Un tipo de bucle"
+                ],
+                "correctAnswer": "Una técnica en la que una función se llama a sí misma"
+              },
+              {
+                "id": 87,
+                "question": "¿Cuál es la función del decorador `@property` en Python?",
+                "options": [
+                  "Definir propiedades de un objeto",
+                  "Acceder a métodos privados",
+                  "Convertir una función en una propiedad de clase"
+                ],
+                "correctAnswer": "Convertir una función en una propiedad de clase"
+              },
+              {
+                "id": 88,
+                "question": "¿Qué es la comprensión de generadores (`generator comprehension`) en Python?",
+                "options": [
+                  "Una forma de expresar un generador de manera concisa",
+                  "Una técnica para crear generadores eficientes",
+                  "Una biblioteca para realizar operaciones con generadores"
+                ],
+                "correctAnswer": "Una forma de expresar un generador de manera concisa"
+              },
+              {
+                "id": 89,
+                "question": "En Python, ¿cómo se manejan las excepciones?",
+                "options": [
+                  "Con estructuras de control `if-else`",
+                  "Usando el bloque `try-except`",
+                  "Con la palabra clave `throw`"
+                ],
+                "correctAnswer": "Usando el bloque `try-except`"
+              },
+              {
+                "id": 90,
+                "question": "¿Cuál es la diferencia entre una clase abstracta y una interfaz en Python?",
+                "options": [
+                  "Una interfaz puede tener implementaciones, una clase abstracta no",
+                  "Una clase abstracta puede tener instancias, una interfaz no",
+                  "No hay diferencia, ambos términos son intercambiables"
+                ],
+                "correctAnswer": "Una interfaz puede tener implementaciones, una clase abstracta no"
+              },
+              {
+                "id": 91,
+                "question": "¿Qué es la desestructuración de tuplas en Python?",
+                "options": [
+                  "Una técnica para reorganizar elementos en una tupla",
+                  "Una forma de deshacerse de tuplas innecesarias",
+                  "No existe la desestructuración de tuplas en Python"
+                ],
+                "correctAnswer": "Una técnica para reorganizar elementos en una tupla"
+              },
+              {
+                "id": 92,
+                "question": "En Python, ¿cómo se implementa la herencia múltiple?",
+                "options": [
+                  "Con la palabra clave `multiple`",
+                  "Usando la función `extend`",
+                  "Separando las clases base por comas en la definición de clase"
+                ],
+                "correctAnswer": "Separando las clases base por comas en la definición de clase"
+              },
+              {
+                "id": 93,
+                "question": "¿Qué es la programación funcional en Python?",
+                "options": [
+                  "Un estilo de programación que utiliza solo funciones",
+                  "Una técnica para programar sin errores",
+                  "No existe la programación funcional en Python"
+                ],
+                "correctAnswer": "Un estilo de programación que utiliza solo funciones"
+              },
+              {
+                "id": 94,
+                "question": "En Python, ¿qué es un decorador?",
+                "options": [
+                  "Una forma de decorar el código fuente",
+                  "Una función que toma otra función y extiende su comportamiento",
+                  "Una herramienta para cambiar el aspecto visual del código"
+                ],
+                "correctAnswer": "Una función que toma otra función y extiende su comportamiento"
+              },
+              {
+                "id": 95,
+                "question": "¿Cuál es el propósito del módulo `itertools` en Python?",
+                "options": [
+                  "Realizar operaciones matemáticas avanzadas",
+                  "Trabajar con iteradores de manera eficiente",
+                  "Crear interfaces gráficas interactivas"
+                ],
+                "correctAnswer": "Trabajar con iteradores de manera eficiente"
+              }
+
+          ]
+        }
+      ]
     }
   ]
 }
