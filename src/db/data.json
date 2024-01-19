@@ -1,187 +1,187 @@
 {
-  "categorias": [
+  "categories": [
     {
-      "nombre": "html",
-      "niveles": [
+      "name": "html",
+      "levels": [
         {
-          "nombre": "facil",
-          "preguntas": [
+          "level": "facil",
+          "questions": [
             {
               "id": "1",
-              "pregunta": "¿Cuál es la versión más reciente de HTML?",
-              "opciones": ["HTML4", "HTML5", "XHTML"],
-              "respuesta_correcta": "HTML5"
+              "question": "¿Cuál es la versión más reciente de HTML?",
+              "options": ["HTML4", "HTML5", "XHTML"],
+              "correctAnswer": "HTML5"
             },
             {
               "id": "2",
-              "pregunta": "¿Cuál es la etiqueta principal para el contenido de HTML?",
-              "opciones": ["<body>", "<head>", "<html>"],
-              "respuesta_correcta": "<body>"
+              "question": "¿Cuál es la etiqueta principal para el contenido de HTML?",
+              "options": ["<body>", "<head>", "<html>"],
+              "correctAnswer": "<body>"
             },
             {
               "id": "3",
-              "pregunta": "¿Cómo se crea un enlace (hipervínculo) en HTML?",
-              "opciones": ["<link>", "<a>", "<href>"],
-              "respuesta_correcta": "<a>"
+              "question": "¿Cómo se crea un enlace (hipervínculo) en HTML?",
+              "options": ["<link>", "<a>", "<href>"],
+              "correctAnswer": "<a>"
             },
             {
               "id": "4",
-              "pregunta": "¿Cuál es la etiqueta para insertar una imagen en HTML?",
-              "opciones": ["<img>", "<picture>", "<src>"],
-              "respuesta_correcta": "<img>"
+              "question": "¿Cuál es la etiqueta para insertar una imagen en HTML?",
+              "options": ["<img>", "<picture>", "<src>"],
+              "correctAnswer": "<img>"
             },
             {
               "id": "5",
-              "pregunta": "¿Qué significa la sigla 'URL' en HTML?",
-              "opciones": [
+              "question": "¿Qué significa la sigla 'URL' en HTML?",
+              "options": [
                 " Universal Resource Locator",
                 "Uniform Resource Locator",
                 "Universal Reference Locator"
               ],
-              "respuesta_correcta": "Uniform Resource Locator"
+              "correctAnswer": "Uniform Resource Locator"
             },
             {
               "id": "6",
-              "pregunta": "¿Cómo se crea una tabla en HTML?",
-              "opciones": ["<table>", "<tr>", "<td>"],
-              "respuesta_correcta": "<table>"
+              "question": "¿Cómo se crea una tabla en HTML?",
+              "options": ["<table>", "<tr>", "<td>"],
+              "correctAnswer": "<table>"
             },
             {
               "id": "7",
-              "pregunta": "¿Cuál es la etiqueta para crear un formulario en HTML?",
-              "opciones": ["<form>", "<input>", "<fieldset>"],
-              "respuesta_correcta": "<form>"
+              "question": "¿Cuál es la etiqueta para crear un formulario en HTML?",
+              "options": ["<form>", "<input>", "<fieldset>"],
+              "correctAnswer": "<form>"
             },
             {
               "id": "8",
-              "pregunta": "¿Cuál es la etiqueta para agregar un salto de línea en HTML?",
-              "opciones": ["<nl>", "<break>", "<br>"],
-              "respuesta_correcta": "<br>"
+              "question": "¿Cuál es la etiqueta para agregar un salto de línea en HTML?",
+              "options": ["<nl>", "<break>", "<br>"],
+              "correctAnswer": "<br>"
             },
             {
               "id": "9",
-              "pregunta": "¿Cómo se crea un botón en HTML?",
-              "opciones": ["<button>", "<submit>", "<input>"],
-              "respuesta_correcta": "<button>"
+              "question": "¿Cómo se crea un botón en HTML?",
+              "options": ["<button>", "<submit>", "<input>"],
+              "correctAnswer": "<button>"
             },
             {
               "id": "10",
-              "pregunta": "¿Cuál es el propósito de la etiqueta <meta charset='UTF-8'> en HTML?",
-              "opciones": [
+              "question": "¿Cuál es el propósito de la etiqueta <meta charset='UTF-8'> en HTML?",
+              "options": [
                 "Establecer el estilo de la página",
                 "Definir el conjunto de caracteres de la página",
                 "Crear un enlace a un archivo externo"
               ],
-              "respuesta_correcta": "Definir el conjunto de caracteres de la página"
+              "correctAnswer": "Definir el conjunto de caracteres de la página"
             }
           ]
         },
         {
-          "nombre": "intermediio",
-          "preguntas": [
+          "level": "intermediio",
+          "questions": [
             {
               "id": "11",
-              "pregunta": "¿Cuál de las siguientes etiquetas se utiliza para insertar una línea horizontal en HTML?",
+              "question": "¿Cuál de las siguientes etiquetas se utiliza para insertar una línea horizontal en HTML?",
               "opciones": ["<line>", "<hr>", "<break>"],
-              "respuesta_correcta": "<hr>"
+              "correctAnswer": "<hr>"
             },
             {
               "id": "12",
-              "pregunta": " ¿Qué significa el acrónimo SVG en el contexto de HTML?",
-              "opciones": [
+              "question": " ¿Qué significa el acrónimo SVG en el contexto de HTML?",
+              "options": [
                 "Scalable Vector Graphics.",
                 "Scripting Video Graphics.",
                 "Styleable Visual Grid."
               ],
-              "respuesta_correcta": "Scalable Vector Graphics."
+              "correctAnswer": "Scalable Vector Graphics."
             },
             {
               "id": "13",
-              "pregunta": " ¿Qué elemento se utiliza para definir una lista no ordenada en HTML?",
-              "opciones": ["<ul>", "<ol>", "<dl>"],
-              "respuesta_correcta": "<ul>"
+              "question": " ¿Qué elemento se utiliza para definir una lista no ordenada en HTML?",
+              "options": ["<ul>", "<ol>", "<dl>"],
+              "correctAnswer": "<ul>"
             },
             {
               "id": "14",
-              "pregunta": "¿Cuál es el propósito de la etiqueta <aside> en HTML5?",
-              "opciones": [
+              "question": "¿Cuál es el propósito de la etiqueta <aside> en HTML5?",
+              "options": [
                 "Definir un encabezado para la página.",
                 "Marcar contenido independiente del contenido principal.",
                 "Crear un pie de página."
               ],
-              "respuesta_correcta": "Marcar contenido independiente del contenido principal."
+              "correctAnswer": "Marcar contenido independiente del contenido principal."
             },
             {
               "id": "15",
-              "pregunta": " ¿Cuál de las siguientes etiquetas se utiliza para definir una tabla en HTML?",
-              "opciones": ["<table>", "<grid>", "<tab>"],
-              "respuesta_correcta": "<table>"
+              "question": " ¿Cuál de las siguientes etiquetas se utiliza para definir una tabla en HTML?",
+              "options": ["<table>", "<grid>", "<tab>"],
+              "correctAnswer": "<table>"
             }
           ]
         },
         {
-          "nombre": "dificil",
-          "preguntas": [
+          "level": "dificil",
+          "questions": [
             {
               "id": "16",
-              "pregunta": "¿Cuál es el propósito principal de la etiqueta <canvas> en HTML5?",
-              "opciones": [
+              "question": "¿Cuál es el propósito principal de la etiqueta <canvas> en HTML5?",
+              "options": [
                 " Crear gráficos vectoriales.",
                 " Reproducir archivos de audio.",
                 "Definir un área gráfica para dibujar gráficos mediante JavaScript."
               ],
-              "respuesta_correcta": " Definir un área gráfica para dibujar gráficos mediante JavaScript."
+              "correctAnswer": " Definir un área gráfica para dibujar gráficos mediante JavaScript."
             },
             {
               "id": "17",
-              "pregunta": " ¿Qué hace el atributo defer en la etiqueta <script> de HTML?",
-              "opciones": [
+              "question": " ¿Qué hace el atributo defer en la etiqueta <script> de HTML?",
+              "options": [
                 "Descarga el script de forma asíncrona.",
                 "Posterga la ejecución del script hasta que se complete el análisis del documento HTML.",
                 "Deshabilita la ejecución del script."
               ],
-              "respuesta_correcta": " Posterga la ejecución del script hasta que se complete el análisis del documento HTML."
+              "correctAnswer": " Posterga la ejecución del script hasta que se complete el análisis del documento HTML."
             },
             {
               "id": "18",
-              "pregunta": "¿Cuál de las siguientes declaraciones sobre HTML5 Web Workers es correcta?",
-              "opciones": [
+              "question": "¿Cuál de las siguientes declaraciones sobre HTML5 Web Workers es correcta?",
+              "options": [
                 "Permiten la ejecución de código JavaScript en un hilo separado.",
                 "Solo pueden ser utilizados para la carga de imágenes.",
                 "Reemplazan por completo el uso de JavaScript en el navegador."
               ],
-              "respuesta_correcta": " Permiten la ejecución de código JavaScript en un hilo separado."
+              "correctAnswer": " Permiten la ejecución de código JavaScript en un hilo separado."
             },
             {
               "id": "19",
-              "pregunta": " ¿Cuál es la función de la etiqueta <figcaption> en HTML5?",
-              "opciones": [
+              "question": " ¿Cuál es la función de la etiqueta <figcaption> en HTML5?",
+              "options": [
                 " Definir la fuente de una imagen.",
                 "Proporcionar una leyenda para un elemento <figure>.",
                 "Establecer el tamaño de una figura."
               ],
-              "respuesta_correcta": "Proporcionar una leyenda para un elemento <figure>."
+              "correctAnswer": "Proporcionar una leyenda para un elemento <figure>."
             },
             {
               "id": "20",
-              "pregunta": "¿Qué hace la propiedad CSS pointer-events: none; cuando se aplica a un elemento HTML?",
-              "opciones": [
+              "question": "¿Qué hace la propiedad CSS pointer-events: none; cuando se aplica a un elemento HTML?",
+              "options": [
                 "Desactiva los eventos del puntero para el elemento y sus descendientes.",
                 "Activa los eventos del puntero solo para el elemento.",
                 "Cambia el cursor del puntero al valor predeterminado"
               ],
-              "respuesta_correcta": "Desactiva los eventos del puntero para el elemento y sus descendientes."
+              "correctAnswer": "Desactiva los eventos del puntero para el elemento y sus descendientes."
             }
           ]
         }
       ]
     },
     {
-      "nombre": "CSS",
-      "niveles": [
+      "name": "CSS",
+      "levels": [
         {
-          "nombre": "facil",
-          "preguntas": [
+          "level": "facil",
+          "questions": [
             {
               "id": "21",
               "question": "¿Qué significa CSS?",
@@ -265,8 +265,8 @@
           ]
         },
         {
-          "nombre": "intermediio",
-          "preguntas": [
+          "level": "intermediio",
+          "questions": [
             {
               "id": "31",
               "question": "¿Cuál es la diferencia entre `margin` y `padding` en CSS?",
@@ -300,8 +300,8 @@
           ]
         },
         {
-          "nombre": "dificil",
-          "preguntas": [
+          "level": "dificil",
+          "questions": [
             {
                 "id": 36,
                 "question": "¿Cuál es la función principal de la propiedad CSS `flex`?",
@@ -368,11 +368,11 @@
       ]
     },
     {
-      "nombre": "javascript",
-      "niveles": [
+      "name": "javascript",
+      "levels": [
         {
-          "nombre": "facil",
-          "preguntas": [
+          "level": "facil",
+          "questions": [
             {
                 "id": 46,
                 "question": "¿Cuál es el lenguaje de programación que se utiliza para programar comportamientos del lado del cliente en un navegador web?",
@@ -436,8 +436,8 @@
           ]
         },
         {
-          "nombre": "intermediio",
-          "preguntas": [
+          "level": "intermediio",
+          "questions": [
             {
                 "id": 56,
                 "question": "¿Cuál es el propósito de la función `map` en JavaScript?",
@@ -471,8 +471,8 @@
           ]
         },
         {
-          "nombre": "dificil",
-          "preguntas": [
+          "level": "dificil",
+          "questions": [
             {
                 "id": 61,
                 "question": "¿Cuál es el propósito principal del método `reduce` en JavaScript?",
@@ -539,11 +539,11 @@
       ]
     },
     {
-      "nombre": "phyton",
-      "niveles": [
+      "name": "phyton",
+      "levels": [
         {
-          "nombre": "facil",
-          "preguntas": [
+          "level": "facil",
+          "questions": [
             {
                 "id": 71,
                 "question": "¿Cuál es la función `print()` en Python utilizada para?",
@@ -607,8 +607,8 @@
           ]
         },
         {
-          "nombre": "intermediio",
-          "preguntas": [
+          "level": "intermediio",
+          "questions": [
             {
                 "id": 81,
                 "question": "¿Qué es un decorador en Python?",
@@ -662,8 +662,8 @@
           ]
         },
         {
-          "nombre": "dificil",
-          "preguntas": [
+          "level": "dificil",
+          "questions": [
             {
                 "id": 86,
                 "question": "¿Qué es la recursión en Python?",
