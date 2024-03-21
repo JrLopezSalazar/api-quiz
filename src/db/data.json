@@ -82,7 +82,7 @@
             {
               "id": "11",
               "question": "¿Cuál de las siguientes etiquetas se utiliza para insertar una línea horizontal en HTML?",
-              "opciones": ["<line>", "<hr>", "<break>"],
+              "options": ["<line>", "<hr>", "<break>"],
               "correctAnswer": "<hr>"
             },
             {
@@ -116,64 +116,162 @@
               "question": " ¿Cuál de las siguientes etiquetas se utiliza para definir una tabla en HTML?",
               "options": ["<table>", "<grid>", "<tab>"],
               "correctAnswer": "<table>"
+            },
+            {
+              "id": "16",
+              "question": "¿Cuál es la etiqueta HTML para un salto de línea?",
+              "options": ["<nl>", "<br>", "<break>"],
+              "correctAnswer": "<br>"
+            },
+            {
+              "id": "17",
+              "question": "¿Qué significa HTML?",
+              "options": [
+                "Hyper Text Markup Language",
+                "Hyperlinks and Text Markup Language",
+                "Home Tool Markup Language"
+              ],
+              "correctAnswer": "Hyper Text Markup Language"
+            },
+            {
+              "id": "18",
+              "question": "¿Cuál es el elemento raíz de un documento HTML?",
+              "options": [
+                "<html>",
+                "<head>",
+                "<body>"
+              ],
+              "correctAnswer": "<html>"
+            },
+            {
+              "id": "19",
+              "question": "¿Cuál es la forma correcta de incluir JavaScript en un documento HTML?",
+              "options": [
+                "<script src='script.js'>",
+                "<script href='script.js'>",
+                "<javascript src='script.js'>"
+              ],
+              "correctAnswer": "<script src='script.js'>"
+            },
+            {
+              "id": "20",
+              "question": "¿Qué significa CSS?",
+              "options": [
+                "Cascading Style Sheets",
+                "Creative Style Sheets",
+                "Computer Style Sheets"
+              ],
+              "correctAnswer": "Cascading Style Sheets"
             }
           ]
         },
+        
         {
           "level": "dificil",
           "questions": [
             {
-              "id": "16",
+              "id": "21",
               "question": "¿Cuál es el propósito principal de la etiqueta <canvas> en HTML5?",
               "options": [
-                " Crear gráficos vectoriales.",
-                " Reproducir archivos de audio.",
+                "Crear gráficos vectoriales.",
+                "Reproducir archivos de audio.",
                 "Definir un área gráfica para dibujar gráficos mediante JavaScript."
               ],
-              "correctAnswer": " Definir un área gráfica para dibujar gráficos mediante JavaScript."
+              "correctAnswer": "Definir un área gráfica para dibujar gráficos mediante JavaScript."
             },
             {
-              "id": "17",
-              "question": " ¿Qué hace el atributo defer en la etiqueta <script> de HTML?",
+              "id": "22",
+              "question": "¿Cuál de las siguientes etiquetas HTML se utiliza para crear un formulario?",
+              "options": [
+                "<form>",
+                "<input>",
+                "<label>"
+              ],
+              "correctAnswer": "<form>"
+            },
+            {
+              "id": "23",
+              "question": "¿Qué hace el atributo defer en la etiqueta <script> de HTML?",
               "options": [
                 "Descarga el script de forma asíncrona.",
                 "Posterga la ejecución del script hasta que se complete el análisis del documento HTML.",
                 "Deshabilita la ejecución del script."
               ],
-              "correctAnswer": " Posterga la ejecución del script hasta que se complete el análisis del documento HTML."
+              "correctAnswer": "Posterga la ejecución del script hasta que se complete el análisis del documento HTML."
             },
             {
-              "id": "18",
+              "id": "24",
               "question": "¿Cuál de las siguientes declaraciones sobre HTML5 Web Workers es correcta?",
               "options": [
                 "Permiten la ejecución de código JavaScript en un hilo separado.",
                 "Solo pueden ser utilizados para la carga de imágenes.",
                 "Reemplazan por completo el uso de JavaScript en el navegador."
               ],
-              "correctAnswer": " Permiten la ejecución de código JavaScript en un hilo separado."
+              "correctAnswer": "Permiten la ejecución de código JavaScript en un hilo separado."
             },
             {
-              "id": "19",
-              "question": " ¿Cuál es la función de la etiqueta <figcaption> en HTML5?",
+              "id": "25",
+              "question": "¿Cuál es la función de la etiqueta <figcaption> en HTML5?",
               "options": [
-                " Definir la fuente de una imagen.",
+                "Definir la fuente de una imagen.",
                 "Proporcionar una leyenda para un elemento <figure>.",
                 "Establecer el tamaño de una figura."
               ],
               "correctAnswer": "Proporcionar una leyenda para un elemento <figure>."
             },
             {
-              "id": "20",
+              "id": "26",
               "question": "¿Qué hace la propiedad CSS pointer-events: none; cuando se aplica a un elemento HTML?",
               "options": [
                 "Desactiva los eventos del puntero para el elemento y sus descendientes.",
                 "Activa los eventos del puntero solo para el elemento.",
-                "Cambia el cursor del puntero al valor predeterminado"
+                "Cambia el cursor del puntero al valor predeterminado."
               ],
               "correctAnswer": "Desactiva los eventos del puntero para el elemento y sus descendientes."
+            },
+            {
+              "id": "27",
+              "question": "¿Cuál es el propósito principal de la etiqueta <article> en HTML5?",
+              "options": [
+                "Definir un encabezado para la página.",
+                "Marcar contenido independiente del contenido principal.",
+                "Crear un pie de página."
+              ],
+              "correctAnswer": "Marcar contenido independiente del contenido principal."
+            },
+            {
+              "id": "28",
+              "question": "¿Qué elemento HTML se utiliza para agrupar contenido en una lista desordenada?",
+              "options": [
+                "<ul>",
+                "<ol>",
+                "<li>"
+              ],
+              "correctAnswer": "<ul>"
+            },
+            {
+              "id": "29",
+              "question": "¿Cuál es la función de la etiqueta <header> en HTML5?",
+              "options": [
+                "Definir un encabezado para la página.",
+                "Marcar contenido independiente del contenido principal.",
+                "Crear un pie de página."
+              ],
+              "correctAnswer": "Definir un encabezado para la página."
+            },
+            {
+              "id": "30",
+              "question": "¿Cuál es la diferencia entre las etiquetas <strong> y <b> en HTML?",
+              "options": [
+                "Ninguna, ambas se utilizan para enfatizar el texto.",
+                "La etiqueta <strong> es más importante semánticamente que <b>.",
+                "La etiqueta <b> es más importante semánticamente que <strong>."
+              ],
+              "correctAnswer": "La etiqueta <strong> es más importante semánticamente que <b>."
             }
           ]
         }
+        
       ]
     },
     {
@@ -183,7 +281,7 @@
           "level": "facil",
           "questions": [
             {
-              "id": "21",
+              "id": "31",
               "question": "¿Qué significa CSS?",
               "options": [
                 "Cascading Style Sheets",
@@ -193,25 +291,25 @@
               "correctAnswer": "Cascading Style Sheets"
             },
             {
-              "id": "22",
+              "id": "32",
               "question": "¿Cómo se selecciona un elemento por su ID en CSS?",
               "options": ["#elemento", ".elemento", "$elemento"],
               "correctAnswer": "#elemento"
             },
             {
-              "id": "23",
+              "id": "33",
               "question": "¿Cuál es la propiedad CSS que se utiliza para cambiar el color del texto?",
               "options": ["color", "background-color", "text-color"],
               "correctAnswer": "color"
             },
             {
-              "id": "24",
+              "id": "34",
               "question": "¿Qué propiedad CSS se utiliza para cambiar el tamaño de la fuente de un elemento?",
               "options": ["font-size", "text-size", "font-style"],
               "correctAnswer": "font-size"
             },
             {
-              "id": "25",
+              "id": "35",
               "question": "¿Cuál es la forma correcta de comentar en CSS?",
               "options": [
                 "/* Comentario */",
@@ -221,19 +319,19 @@
               "correctAnswer": "/* Comentario */"
             },
             {
-              "id": "26",
+              "id": "36",
               "question": "¿Cómo se aplica un estilo CSS a todos los elementos `<p>`?",
               "options": ["p { style }", ".p { style }", "p.style"],
               "correctAnswer": "p { style }"
             },
             {
-              "id": "27",
+              "id": "37",
               "question": "¿Cuál es la propiedad CSS que se utiliza para cambiar el tipo de letra?",
               "options": ["font-family", "text-family", "font-type"],
               "correctAnswer": "font-family"
             },
             {
-              "id": "28",
+              "id": "38",
               "question": "¿Cómo se establece el fondo transparente en CSS?",
               "options": [
                 "background: transparent;",
@@ -243,7 +341,7 @@
               "correctAnswer": "background: transparent;"
             },
             {
-              "id": "29",
+              "id": "39",
               "question": "¿Cuál es la propiedad CSS que se utiliza para centrar un elemento horizontalmente?",
               "options": [
                 "text-align: center;",
@@ -253,7 +351,7 @@
               "correctAnswer": "margin: auto;"
             },
             {
-              "id": "30",
+              "id": "40",
               "question": "¿Cuál es la forma correcta de enlazar un archivo CSS externo?",
               "options": [
                 "<css src='styles.css'>",
@@ -268,103 +366,214 @@
           "level": "intermedio",
           "questions": [
             {
-              "id": "31",
-              "question": "¿Cuál es la diferencia entre `margin` y `padding` en CSS?",
-    "options": ["Ambos afectan el espacio interior del elemento.", "`Margin` afecta el espacio exterior y `padding` afecta el espacio interior.", "`Padding` afecta el espacio exterior y `margin` afecta el espacio interior."],
-    "correctAnswer": "`Margin` afecta el espacio exterior y `padding` afecta el espacio interior."
+              "id": "41",
+              "question": "¿Qué hace la propiedad `flex-grow` en CSS?",
+              "options": [
+                "Define la proporción en la que un elemento debe crecer si hay espacio adicional disponible.",
+                "Define la proporción en la que un elemento debe encogerse si hay espacio insuficiente disponible.",
+                "Establece la cantidad de espacio adicional alrededor de un elemento flexible."
+              ],
+              "correctAnswer": "Define la proporción en la que un elemento debe crecer si hay espacio adicional disponible."
             },
             {
-              "id": "32",
-              "question": "¿Qué hace la propiedad `position: relative;` en CSS?",
-              "options": ["Coloca el elemento en relación con su posición original.", "Coloca el elemento en relación con el borde del elemento padre.", "Coloca el elemento en la esquina superior izquierda de la página."],
-              "correctAnswer": "Coloca el elemento en relación con su posición original."
+              "id": "42",
+              "question": "¿Cuál es la diferencia entre `em` y `rem` en CSS?",
+              "options": [
+                "`em` representa el tamaño de fuente relativo al tamaño de fuente del elemento padre, mientras que `rem` representa el tamaño de fuente relativo al tamaño de fuente del elemento raíz.",
+                "`em` representa el tamaño de fuente relativo al tamaño de fuente del elemento raíz, mientras que `rem` representa el tamaño de fuente relativo al tamaño de fuente del elemento padre.",
+                "`em` representa el tamaño de fuente absoluto, mientras que `rem` representa el tamaño de fuente relativo."
+              ],
+              "correctAnswer": "`em` representa el tamaño de fuente relativo al tamaño de fuente del elemento padre, mientras que `rem` representa el tamaño de fuente relativo al tamaño de fuente del elemento raíz."
             },
             {
-              "id": "33",
-              "question": "¿Cuál es la diferencia entre `display: block;` y `display: inline;`?",
-    "options": ["`Block` hace que el elemento ocupe todo el ancho disponible, mientras que `inline` solo ocupa el ancho necesario.", "`Inline` hace que el elemento sea un bloque de línea, mientras que `block` lo convierte en un elemento en línea.", "No hay diferencia entre `block` e `inline`."],
-    "correctAnswer": "`Block` hace que el elemento ocupe todo el ancho disponible, mientras que `inline` solo ocupa el ancho necesario."
+              "id": "43",
+              "question": "¿Qué propiedad CSS se utiliza para alinear elementos horizontalmente?",
+              "options": [
+                "`justify-content`",
+                "`align-items`",
+                "`align-content`"
+              ],
+              "correctAnswer": "`justify-content`"
             },
             {
-              "id": "34",
-              "question": "¿Cómo se hace que un elemento tenga esquinas redondeadas en CSS?",
-    "options": ["`border-radius`", "`corner-radius`", "`round-corners`"],
-    "correctAnswer": "`border-radius`"
+              "id": "44",
+              "question": "¿Cuál es la diferencia entre `absolute` y `relative` en CSS?",
+              "options": [
+                "`Absolute` posiciona un elemento relativo a su elemento padre más cercano con una posición establecida, mientras que `relative` posiciona un elemento relativo a su posición original.",
+                "`Relative` posiciona un elemento relativo a su elemento padre más cercano con una posición establecida, mientras que `absolute` posiciona un elemento relativo a su posición original.",
+                "No hay diferencia entre `absolute` y `relative`."
+              ],
+              "correctAnswer": "`Absolute` posiciona un elemento relativo a su elemento padre más cercano con una posición establecida, mientras que `relative` posiciona un elemento relativo a su posición original."
             },
             {
-              "id": "35",
-              "question": "¿Cuál es la propiedad CSS utilizada para aplicar sombras a los elementos?",
-    "options": ["`box-shadow`", "`text-shadow`", "`element-shadow`"],
-    "correctAnswer": "`box-shadow`"
+              "id": "45",
+              "question": "¿Qué significa la propiedad `float` en CSS?",
+              "options": [
+                "Mueve un elemento a la izquierda o derecha, permitiendo que otros elementos floten alrededor de él.",
+                "Establece la opacidad de un elemento.",
+                "Cambia el tamaño de un elemento flotante."
+              ],
+              "correctAnswer": "Mueve un elemento a la izquierda o derecha, permitiendo que otros elementos floten alrededor de él."
+            },
+            {
+              "id": "46",
+              "question": "¿Cuál es el propósito de la propiedad `transition` en CSS?",
+              "options": [
+                "Define una transición suave entre los estados de un elemento.",
+                "Cambia el tamaño de un elemento de forma gradual.",
+                "Controla la animación de un elemento."
+              ],
+              "correctAnswer": "Define una transición suave entre los estados de un elemento."
+            },
+            {
+              "id": "47",
+              "question": "¿Qué significa la propiedad `opacity` en CSS?",
+              "options": [
+                "Cambia el tamaño de un elemento.",
+                "Controla la transparencia de un elemento.",
+                "Establece la posición de un elemento."
+              ],
+              "correctAnswer": "Controla la transparencia de un elemento."
+            },
+            {
+              "id": "48",
+              "question": "¿Qué propiedad CSS se utiliza para cambiar el tamaño de fuente de un elemento?",
+              "options": [
+                "`font-size`",
+                "`text-size`",
+                "`size`"
+              ],
+              "correctAnswer": "`font-size`"
+            },
+            {
+              "id": "49",
+              "question": "¿Cuál es la función de la propiedad `box-sizing` en CSS?",
+              "options": [
+                "Define cómo se calcularán las dimensiones totales de un elemento.",
+                "Define la opacidad de un elemento.",
+                "Establece el margen alrededor de un elemento."
+              ],
+              "correctAnswer": "Define cómo se calcularán las dimensiones totales de un elemento."
+            },
+            {
+              "id": "50",
+              "question": "¿Qué propiedad CSS se utiliza para establecer el color de fondo de un elemento?",
+              "options": [
+                "`background-color`",
+                "`color`",
+                "`bgcolor`"
+              ],
+              "correctAnswer": "`background-color`"
             }
           ]
         },
+        
         {
           "level": "dificil",
           "questions": [
             {
-                "id": 36,
-                "question": "¿Cuál es la función principal de la propiedad CSS `flex`?",
-                "options": ["Crear un borde flexible alrededor de un elemento.", "Establecer un diseño de cuadrícula flexible en un contenedor.", "Definir un modelo de caja flexible para un elemento."],
-                "correctAnswer": "Definir un modelo de caja flexible para un elemento."
-              },
-              {
-                "id": 37,
-                "question": "¿Qué propiedad CSS se utiliza para cambiar el color del texto de un enlace no visitado?",
-                "options": ["`text-color`", "`link-color`", "`color`"],
-                "correctAnswer": "`color`"
-              },
-              {
-                "id": 38,
-                "question": "En CSS, ¿qué significa la propiedad `z-index`?",
-                "options": ["La posición vertical de un elemento.", "La posición horizontal de un elemento.", "El índice de apilamiento de un elemento."],
-                "correctAnswer": "El índice de apilamiento de un elemento."
-              },
-              {
-                "id": 39,
-                "question": "¿Cómo se selecciona un elemento `div` con la clase `container` en CSS?",
-                "options": ["`div.container`", "`.container div`", "`#container div`"],
-                "correctAnswer": "`div.container`"
-              },
-              {
-                "id": 40,
-                "question": "¿Cuál es el propósito de la propiedad CSS `opacity`?",
-                "options": ["Cambiar la opacidad de fondo de un elemento.", "Controlar la transparencia de un elemento.", "Establecer la opacidad de texto de un elemento."],
-                "correctAnswer": "Controlar la transparencia de un elemento."
-              },
-              {
-                "id": 41,
-                "question": "¿Qué unidad de medida se utiliza comúnmente para el tamaño de fuente en CSS?",
-                "options": ["`em`", "`px`", "`pt`"],
-                "correctAnswer": "`px`"
-              },
-              {
-                "id": 42,
-                "question": "¿Cómo se aplica un estilo CSS a un elemento cuando el mouse está sobre él?",
-                "options": ["`:hover`", "`.hover`", "`hover:`"],
-                "correctAnswer": "`:hover`"
-              },
-              {
-                "id": 43,
-                "question": "¿Qué propiedad CSS se utiliza para cambiar el tipo de cursor en un elemento?",
-                "options": ["`cursor-type`", "`mouse-cursor`", "`cursor`"],
-                "correctAnswer": "`cursor`"
-              },
-              {
-                "id": 44,
-                "question": "¿Cuál es la propiedad CSS utilizada para centrar un elemento horizontalmente?",
-                "options": ["`text-align`", "`margin-center`", "`margin: auto;`"],
-                "correctAnswer": "`margin: auto;`"
-              },
-              {
-                "id": 45,
-                "question": "¿Cómo se hace que un elemento tenga una transición suave en CSS?",
-                "options": ["`transition: smooth;`", "`transition-duration: ease;`", "`transition: property duration timing-function;`"],
-                "correctAnswer": "`transition: property duration timing-function;`"
-              }
-
+              "id": "51",
+              "question": "¿Cuál es el propósito de la propiedad `clip-path` en CSS?",
+              "options": [
+                "Define el tamaño del área de recorte de un elemento.",
+                "Recorta un elemento a través de una forma definida.",
+                "Aplica un efecto de desenfoque al contenido de un elemento."
+              ],
+              "correctAnswer": "Recorta un elemento a través de una forma definida."
+            },
+            {
+              "id": "52",
+              "question": "¿Qué hace la propiedad `will-change` en CSS?",
+              "options": [
+                "Indica al navegador que el elemento experimentará cambios en el futuro.",
+                "Establece una animación para un elemento.",
+                "Define un punto de ruptura para la disposición del diseño."
+              ],
+              "correctAnswer": "Indica al navegador que el elemento experimentará cambios en el futuro."
+            },
+            {
+              "id": "53",
+              "question": "¿Cuál es la función de la propiedad `shape-outside` en CSS?",
+              "options": [
+                "Define la forma de un elemento.",
+                "Controla la posición del contenido en relación con el margen de un elemento.",
+                "Establece una sombra alrededor de un elemento."
+              ],
+              "correctAnswer": "Define la forma de un elemento."
+            },
+            {
+              "id": "54",
+              "question": "¿Qué significa la propiedad `backface-visibility` en CSS?",
+              "options": [
+                "Controla si la parte posterior de un elemento es visible o no.",
+                "Cambia el tamaño de la parte posterior de un elemento.",
+                "Aplica un efecto de desenfoque a la parte posterior de un elemento."
+              ],
+              "correctAnswer": "Controla si la parte posterior de un elemento es visible o no."
+            },
+            {
+              "id": "55",
+              "question": "¿Cuál es la función de la propiedad `overscroll-behavior` en CSS?",
+              "options": [
+                "Controla el desplazamiento de un elemento fuera de sus límites.",
+                "Define el comportamiento de desplazamiento en dispositivos móviles.",
+                "Establece un efecto de rebote al final de un desplazamiento."
+              ],
+              "correctAnswer": "Controla el desplazamiento de un elemento fuera de sus límites."
+            },
+            {
+              "id": "56",
+              "question": "¿Qué propiedad CSS se utiliza para establecer la opacidad de fondo de un elemento?",
+              "options": [
+                "`background-opacity`",
+                "`opacity`",
+                "`background-color`"
+              ],
+              "correctAnswer": "`opacity`"
+            },
+            {
+              "id": "57",
+              "question": "¿Cómo se hace que un elemento tenga una transición suave en CSS?",
+              "options": [
+                "`transition: smooth;`",
+                "`transition-duration: ease;`",
+                "`transition: property duration timing-function;`"
+              ],
+              "correctAnswer": "`transition: property duration timing-function;`"
+            },
+            {
+              "id": "58",
+              "question": "¿Qué propiedad CSS se utiliza para cambiar el tamaño de fuente de un elemento?",
+              "options": [
+                "`font-size`",
+                "`text-size`",
+                "`size`"
+              ],
+              "correctAnswer": "`font-size`"
+            },
+            {
+              "id": "59",
+              "question": "¿Cuál es la función de la propiedad `mix-blend-mode` en CSS?",
+              "options": [
+                "Controla cómo se mezclan los colores de fondo y primer plano de un elemento.",
+                "Define el modo de mezcla de elementos flexibles.",
+                "Establece la opacidad de un elemento."
+              ],
+              "correctAnswer": "Controla cómo se mezclan los colores de fondo y primer plano de un elemento."
+            },
+            {
+              "id": "60",
+              "question": "¿Qué significa la propiedad `unicode-bidi` en CSS?",
+              "options": [
+                "Define la dirección del texto en un elemento.",
+                "Controla la alineación de un elemento.",
+                "Establece el diseño de caja de un elemento."
+              ],
+              "correctAnswer": "Define la dirección del texto en un elemento."
+            }
           ]
         }
+        
       ]
     },
     {
@@ -374,61 +583,61 @@
           "level": "facil",
           "questions": [
             {
-                "id": 46,
+                "id": 61,
                 "question": "¿Cuál es el lenguaje de programación que se utiliza para programar comportamientos del lado del cliente en un navegador web?",
                 "options": ["Java", "JavaScript", "Python"],
                 "correctAnswer": "JavaScript"
               },
               {
-                "id": 47,
+                "id": 62,
                 "question": "¿Cómo se declara una variable en JavaScript?",
                 "options": ["var x;", "variable x;", "x = var;"],
                 "correctAnswer": "var x;"
               },
               {
-                "id": 48,
+                "id": 63,
                 "question": "¿Cuál es la forma correcta de comentar una línea en JavaScript?",
                 "options": ["/* Este es un comentario */", "// Este es un comentario", "# Este es un comentario"],
                 "correctAnswer": "// Este es un comentario"
               },
               {
-                "id": 49,
+                "id": 64,
                 "question": "¿Qué función se utiliza para imprimir mensajes en la consola en JavaScript?",
                 "options": ["console.log()", "print()", "log()"],
                 "correctAnswer": "console.log()"
               },
               {
-                "id": 50,
+                "id": 65,
                 "question": "¿Cómo se llama el tipo de dato que puede tener los valores `true` o `false`?",
                 "options": ["Boolean", "String", "Number"],
                 "correctAnswer": "Boolean"
               },
               {
-                "id": 51,
+                "id": 66,
                 "question": "¿Cuál es el resultado de la expresión `5 + '5'` en JavaScript?",
                 "options": ["55", "10", "Error"],
                 "correctAnswer": "55"
               },
               {
-                "id": 52,
+                "id": 67,
                 "question": "¿Qué estructura de control se utiliza para tomar decisiones en JavaScript?",
                 "options": ["for loop", "if statement", "while loop"],
                 "correctAnswer": "if statement"
               },
               {
-                "id": 53,
+                "id": 68,
                 "question": "¿Cuál es el operador de asignación en JavaScript?",
                 "options": ["=", "==", ":="],
                 "correctAnswer": "="
               },
               {
-                "id": 54,
+                "id": 69,
                 "question": "¿Cómo se llama la función que se ejecuta automáticamente cuando se carga una página web?",
                 "options": ["main()", "start()", "onload()"],
                 "correctAnswer": "onload()"
               },
               {
-                "id": 55,
+                "id": 70,
                 "question": "¿Cuál es la palabra clave utilizada para declarar una función en JavaScript?",
                 "options": ["function", "define", "func"],
                 "correctAnswer": "function"
@@ -439,96 +648,167 @@
           "level": "intermedio",
           "questions": [
             {
-                "id": 56,
-                "question": "¿Cuál es el propósito de la función `map` en JavaScript?",
-                "options": ["Iterar sobre un objeto", "Crear un nuevo array transformando cada elemento", "Enlazar eventos a elementos HTML"],
-                "correctAnswer": "Crear un nuevo array transformando cada elemento"
-              },
-              {
-                "id": 57,
-                "question": "¿Qué método se utiliza para agregar un elemento al final de un array en JavaScript?",
-                "options": ["append()", "push()", "add()"],
-                "correctAnswer": "push()"
-              },
-              {
-                "id": 58,
-                "question": "¿Cuál es la diferencia entre `let` y `const` en la declaración de variables?",
-                "options": ["No hay diferencia", "let permite reasignar valores, const no", "const es obsoleta"],
-                "correctAnswer": "let permite reasignar valores, const no"
-              },
-              {
-                "id": 59,
-                "question": "¿Cómo se llama el proceso de combinar dos o más arrays en uno solo en JavaScript?",
-                "options": ["Concatenación", "Unión", "Fusión"],
-                "correctAnswer": "Concatenación"
-              },
-              {
-                "id": 60,
-                "question": "En JavaScript, ¿cómo se puede prevenir que un formulario se envíe cuando se presiona el botón de envío?",
-                "options": ["event.stopPropagation()", "event.preventDefault()", "return false;"],
-                "correctAnswer": "event.preventDefault()"
-              }
+              "id": "71",
+              "question": "¿Qué es una función de flecha en JavaScript?",
+              "options": [
+                "Una función que utiliza la sintaxis de flecha `=>` para definirse.",
+                "Una función que solo puede ser llamada desde otras funciones.",
+                "Una función que devuelve un objeto de tipo flecha."
+              ],
+              "correctAnswer": "Una función que utiliza la sintaxis de flecha `=>` para definirse."
+            },
+            {
+              "id": "72",
+              "question": "¿Cuál es el propósito del método `forEach()` en JavaScript?",
+              "options": [
+                "Iterar sobre un array y ejecutar una función para cada elemento.",
+                "Filtrar los elementos de un array según un criterio dado.",
+                "Agregar un nuevo elemento al final de un array."
+              ],
+              "correctAnswer": "Iterar sobre un array y ejecutar una función para cada elemento."
+            },
+            {
+              "id": "73",
+              "question": "¿Qué método se utiliza para ordenar los elementos de un array en JavaScript?",
+              "options": [
+                "`order()`",
+                "`sort()`",
+                "`arrange()`"
+              ],
+              "correctAnswer": "`sort()`"
+            },
+            {
+              "id": "74",
+              "question": "¿Cuál es la función del operador `typeof` en JavaScript?",
+              "options": [
+                "Determinar el tipo de un objeto.",
+                "Comprobar si un objeto es de un tipo específico.",
+                "Realizar una conversión de tipos de datos."
+              ],
+              "correctAnswer": "Determinar el tipo de un objeto."
+            },
+            {
+              "id": "75",
+              "question": "En JavaScript, ¿cómo se puede verificar si una variable es nula?",
+              "options": [
+                "`isNull()`",
+                "`isUndefined()`",
+                "`=== null`"
+              ],
+              "correctAnswer": "`=== null`"
+            },
+            {
+              "id": "76",
+              "question": "¿Cuál es la diferencia entre `==` y `===` en JavaScript?",
+              "options": [
+                "`==` verifica la igualdad de valor sin verificar el tipo, `===` verifica la igualdad de valor y tipo.",
+                "`==` verifica la igualdad de valor y tipo, `===` verifica solo el valor.",
+                "`==` verifica la igualdad de valor y tipo de manera estricta, `===` verifica solo el valor de manera flexible."
+              ],
+              "correctAnswer": "`==` verifica la igualdad de valor sin verificar el tipo, `===` verifica la igualdad de valor y tipo."
+            },
+            {
+              "id": "77",
+              "question": "¿Qué función se utiliza para convertir una cadena a minúsculas en JavaScript?",
+              "options": [
+                "`toUpperCase()`",
+                "`toLower()`",
+                "`toLowerCase()`"
+              ],
+              "correctAnswer": "`toLowerCase()`"
+            },
+            {
+              "id": "78",
+              "question": "¿Qué método se utiliza para encontrar la longitud de una cadena en JavaScript?",
+              "options": [
+                "`length()`",
+                "`size()`",
+                "`length`"
+              ],
+              "correctAnswer": "`length`"
+            },
+            {
+              "id": "79",
+              "question": "¿Cuál es el propósito del método `slice()` en JavaScript?",
+              "options": [
+                "Eliminar elementos de un array.",
+                "Copiar una parte de una cadena o array.",
+                "Concatenar dos arrays."
+              ],
+              "correctAnswer": "Copiar una parte de una cadena o array."
+            },
+            {
+              "id": "80",
+              "question": "¿Cómo se puede crear un objeto en JavaScript utilizando la sintaxis de objeto literal?",
+              "options": [
+                "`new Object()`",
+                "`{}`",
+                "`createObject()`"
+              ],
+              "correctAnswer": "`{}`"
+            }
           ]
         },
+        
         {
           "level": "dificil",
           "questions": [
             {
-                "id": 61,
+                "id": 81,
                 "question": "¿Cuál es el propósito principal del método `reduce` en JavaScript?",
                 "options": ["Eliminar elementos duplicados de un array", "Realizar operaciones en cada elemento y reducirlos a un único valor", "Ordenar un array alfabéticamente"],
                 "correctAnswer": "Realizar operaciones en cada elemento y reducirlos a un único valor"
               },
               {
-                "id": 62,
+                "id": 82,
                 "question": "En JavaScript, ¿cómo se puede clonar un objeto?",
                 "options": ["object.clone()", "Object.copy()", "Object.assign({}, obj)"],
                 "correctAnswer": "Object.assign({}, obj)"
               },
               {
-                "id": 63,
+                "id": 83,
                 "question": "¿Cuál es el propósito de la función `setTimeout` en JavaScript?",
                 "options": ["Esperar un tiempo antes de ejecutar una función", "Definir un temporizador para la página web", "Configurar el intervalo entre solicitudes HTTP"],
                 "correctAnswer": "Esperar un tiempo antes de ejecutar una función"
               },
               {
-                "id": 64,
+                "id": 84,
                 "question": "En JavaScript, ¿qué hace el operador `===`?",
                 "options": ["Comparación estricta de valor y tipo", "Asignación de valor", "Comparación de valor sin tener en cuenta el tipo"],
                 "correctAnswer": "Comparación estricta de valor y tipo"
               },
               {
-                "id": 65,
+                "id": 85,
                 "question": "¿Cuál es la función del método `splice` en un array en JavaScript?",
                 "options": ["Eliminar elementos del array", "Agregar elementos al array", "Eliminar, reemplazar o agregar elementos en posiciones específicas del array"],
                 "correctAnswer": "Eliminar, reemplazar o agregar elementos en posiciones específicas del array"
               },
               {
-                "id": 66,
+                "id": 86,
                 "question": "En JavaScript, ¿cómo se declara una función anónima?",
                 "options": ["function myFunction() {}", "const myFunction = function() {}", "const myFunction = () => {}"],
                 "correctAnswer": "const myFunction = function() {}"
               },
               {
-                "id": 67,
+                "id": 87,
                 "question": "¿Qué método se utiliza para convertir una cadena a minúsculas en JavaScript?",
                 "options": ["toLowerCase()", "toLower()", "convertLowerCase()"],
                 "correctAnswer": "toLowerCase()"
               },
               {
-                "id": 68,
+                "id": 88,
                 "question": "¿Cuál es el resultado de `typeof null` en JavaScript?",
                 "options": ["'object'", "'null'", "'undefined'", "'string'"],
                 "correctAnswer": "'object'"
               },
               {
-                "id": 69,
+                "id": 89,
                 "question": "En JavaScript, ¿qué hace el operador ternario (`? :`)?",
                 "options": ["Es un operador de comparación", "Es un operador lógico", "Es un operador condicional"],
                 "correctAnswer": "Es un operador condicional"
               },
               {
-                "id": 70,
+                "id": 90,
                 "question": "¿Cómo se puede realizar una redirección a otra página web en JavaScript?",
                 "options": ["window.redirect('http://nuevapagina.com')", "location.navigate('http://nuevapagina.com')", "window.location.href = 'http://nuevapagina.com'"],
                 "correctAnswer": "window.location.href = 'http://nuevapagina.com'"
@@ -545,61 +825,61 @@
           "level": "facil",
           "questions": [
             {
-                "id": 71,
+                "id": 91,
                 "question": "¿Cuál es la función `print()` en Python utilizada para?",
                 "options": ["Realizar operaciones matemáticas", "Mostrar mensajes en la consola", "Definir variables"],
                 "correctAnswer": "Mostrar mensajes en la consola"
               },
               {
-                "id": 72,
+                "id": 92,
                 "question": "En Python, ¿cómo se comenta una línea de código?",
                 "options": ["// Comentario", "# Comentario", "/* Comentario */"],
                 "correctAnswer": "# Comentario"
               },
               {
-                "id": 73,
+                "id": 93,
                 "question": "¿Cuál es la función de la palabra clave `if` en Python?",
                 "options": ["Definir una función", "Manejar excepciones", "Realizar una condición lógica"],
                 "correctAnswer": "Realizar una condición lógica"
               },
               {
-                "id": 74,
+                "id": 94,
                 "question": "En Python, ¿cómo se define una lista?",
                 "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}"],
                 "correctAnswer": "[1, 2, 3]"
               },
               {
-                "id": 75,
+                "id": 95,
                 "question": "¿Qué tipo de lenguaje de programación es Python?",
                 "options": ["Lenguaje de programación orientado a objetos", "Lenguaje de programación de bajo nivel", "Lenguaje de programación interpretado"],
                 "correctAnswer": "Lenguaje de programación interpretado"
               },
               {
-                "id": 76,
+                "id": 96,
                 "question": "¿Cuál es la función de la palabra clave `for` en Python?",
                 "options": ["Declarar una función", "Iterar sobre una secuencia", "Manejar excepciones"],
                 "correctAnswer": "Iterar sobre una secuencia"
               },
               {
-                "id": 77,
+                "id": 97,
                 "question": "En Python, ¿cómo se define una función?",
                 "options": ["function myFunction():", "def myFunction():", "method myFunction():"],
                 "correctAnswer": "def myFunction():"
               },
               {
-                "id": 78,
+                "id": 98,
                 "question": "¿Cuál es el operador de asignación en Python?",
                 "options": ["=", "==", "+="],
                 "correctAnswer": "="
               },
               {
-                "id": 79,
+                "id": 99,
                 "question": "¿Cómo se imprime el contenido de una variable en Python?",
                 "options": ["print(variable)", "console.log(variable)", "echo variable"],
                 "correctAnswer": "print(variable)"
               },
               {
-                "id": 80,
+                "id": 100,
                 "question": "En Python, ¿cómo se solicita la entrada del usuario?",
                 "options": ["input()", "readInput()", "getUserInput()"],
                 "correctAnswer": "input()"
@@ -610,62 +890,112 @@
           "level": "intermedio",
           "questions": [
             {
-                "id": 81,
-                "question": "¿Qué es un decorador en Python?",
-                "options": [
-                  "Una función que decora el código con colores",
-                  "Un patrón de diseño que permite agregar funcionalidades a funciones o métodos",
-                  "Una variable especial utilizada en programación funcional"
-                ],
-                "correctAnswer": "Un patrón de diseño que permite agregar funcionalidades a funciones o métodos"
-              },
-              {
-                "id": 82,
-                "question": "¿Qué es la comprensión de listas en Python?",
-                "options": [
-                  "Una forma de expresar una lista de manera concisa",
-                  "La capacidad de una lista para comprender otros tipos de datos",
-                  "Un método para realizar operaciones matemáticas con listas"
-                ],
-                "correctAnswer": "Una forma de expresar una lista de manera concisa"
-              },
-              {
-                "id": 83,
-                "question": "En Python, ¿qué es un generador?",
-                "options": [
-                  "Una función que crea gráficos",
-                  "Un objeto iterable que se genera sobre la marcha",
-                  "Un tipo de variable global"
-                ],
-                "correctAnswer": "Un objeto iterable que se genera sobre la marcha"
-              },
-              {
-                "id": 84,
-                "question": "¿Cuál es la diferencia entre `append()` y `extend()` en Python?",
-                "options": [
-                  "Ambas funciones hacen lo mismo",
-                  "`append()` agrega un elemento a la lista, mientras que `extend()` agrega varios elementos",
-                  "No hay diferencia, son sinónimos"
-                ],
-                "correctAnswer": "`append()` agrega un elemento a la lista, mientras que `extend()` agrega varios elementos"
-              },
-              {
-                "id": 85,
-                "question": "En Python, ¿cómo se manejan las excepciones?",
-                "options": [
-                  "Con la palabra clave `catch`",
-                  "Con bloques `try`, `catch`, `finally`",
-                  "No es necesario manejar excepciones en Python"
-                ],
-                "correctAnswer": "Con bloques `try`, `catch`, `finally`"
-              }
+              "id": "101",
+              "question": "¿Qué es la comprensión de conjuntos en Python?",
+              "options": [
+                "Una forma de expresar un conjunto de manera concisa",
+                "La capacidad de un conjunto para comprender otros tipos de datos",
+                "Un método para realizar operaciones matemáticas con conjuntos"
+              ],
+              "correctAnswer": "Una forma de expresar un conjunto de manera concisa"
+            },
+            {
+              "id": "102",
+              "question": "¿Cuál es el propósito de la función `zip()` en Python?",
+              "options": [
+                "Comprimir archivos en formato ZIP",
+                "Unir elementos de iterables en tuplas",
+                "Ordenar una lista en orden descendente"
+              ],
+              "correctAnswer": "Unir elementos de iterables en tuplas"
+            },
+            {
+              "id": "103",
+              "question": "¿Qué es la recursión en Python?",
+              "options": [
+                "Un tipo de bucle que repite una secuencia de instrucciones",
+                "Un método para definir una función dentro de otra función",
+                "Un enfoque donde una función se llama a sí misma para resolver un problema"
+              ],
+              "correctAnswer": "Un enfoque donde una función se llama a sí misma para resolver un problema"
+            },
+            {
+              "id": "104",
+              "question": "¿Cuál es la diferencia entre `remove()` y `discard()` en Python?",
+              "options": [
+                "`remove()` elimina un elemento específico de un conjunto, `discard()` elimina cualquier elemento que coincida",
+                "`remove()` elimina cualquier elemento que coincida, `discard()` elimina un elemento específico",
+                "Ambas funciones hacen lo mismo"
+              ],
+              "correctAnswer": "`remove()` elimina un elemento específico de un conjunto, `discard()` elimina cualquier elemento que coincida"
+            },
+            {
+              "id": "105",
+              "question": "¿Qué es un diccionario en Python?",
+              "options": [
+                "Una estructura de datos que almacena elementos ordenados y únicos",
+                "Un tipo de variable global",
+                "Una colección de pares clave-valor"
+              ],
+              "correctAnswer": "Una colección de pares clave-valor"
+            },
+            {
+              "id": "106",
+              "question": "¿Cuál es la función del operador `in` en Python?",
+              "options": [
+                "Determinar si un elemento está presente en una secuencia",
+                "Realizar una operación de comparación entre dos valores",
+                "Crear un bucle infinito"
+              ],
+              "correctAnswer": "Determinar si un elemento está presente en una secuencia"
+            },
+            {
+              "id": "107",
+              "question": "¿Qué es la comprensión de diccionarios en Python?",
+              "options": [
+                "Una forma de expresar un diccionario de manera concisa",
+                "La capacidad de un diccionario para comprender otros tipos de datos",
+                "Un método para realizar operaciones matemáticas con diccionarios"
+              ],
+              "correctAnswer": "Una forma de expresar un diccionario de manera concisa"
+            },
+            {
+              "id": "108",
+              "question": "¿Qué función se utiliza para ordenar un diccionario por sus valores en Python?",
+              "options": [
+                "`sort()`",
+                "`sorted()`",
+                "`order()`"
+              ],
+              "correctAnswer": "`sorted()`"
+            },
+            {
+              "id": "109",
+              "question": "¿Cómo se define una función en Python?",
+              "options": [
+                "Con la palabra clave `def` seguida del nombre de la función y sus parámetros",
+                "Con la palabra clave `function` seguida del nombre de la función y sus parámetros",
+                "No es posible definir funciones en Python"
+              ],
+              "correctAnswer": "Con la palabra clave `def` seguida del nombre de la función y sus parámetros"
+            },
+            {
+              "id": "110",
+              "question": "¿Qué es una lista en Python?",
+              "options": [
+                "Una secuencia inmutable de elementos ordenados y únicos",
+                "Una estructura de datos que almacena pares clave-valor",
+                "Una secuencia mutable de elementos ordenados y posiblemente duplicados"
+              ],
+              "correctAnswer": "Una secuencia mutable de elementos ordenados y posiblemente duplicados"
+            }
           ]
         },
         {
           "level": "dificil",
           "questions": [
             {
-                "id": 86,
+                "id": 111,
                 "question": "¿Qué es la recursión en Python?",
                 "options": [
                   "Un error de programación",
@@ -675,7 +1005,7 @@
                 "correctAnswer": "Una técnica en la que una función se llama a sí misma"
               },
               {
-                "id": 87,
+                "id": 112,
                 "question": "¿Cuál es la función del decorador `@property` en Python?",
                 "options": [
                   "Definir propiedades de un objeto",
@@ -685,7 +1015,7 @@
                 "correctAnswer": "Convertir una función en una propiedad de clase"
               },
               {
-                "id": 88,
+                "id": 113,
                 "question": "¿Qué es la comprensión de generadores (`generator comprehension`) en Python?",
                 "options": [
                   "Una forma de expresar un generador de manera concisa",
@@ -695,7 +1025,7 @@
                 "correctAnswer": "Una forma de expresar un generador de manera concisa"
               },
               {
-                "id": 89,
+                "id": 114,
                 "question": "En Python, ¿cómo se manejan las excepciones?",
                 "options": [
                   "Con estructuras de control `if-else`",
@@ -705,7 +1035,7 @@
                 "correctAnswer": "Usando el bloque `try-except`"
               },
               {
-                "id": 90,
+                "id": 115,
                 "question": "¿Cuál es la diferencia entre una clase abstracta y una interfaz en Python?",
                 "options": [
                   "Una interfaz puede tener implementaciones, una clase abstracta no",
@@ -715,7 +1045,7 @@
                 "correctAnswer": "Una interfaz puede tener implementaciones, una clase abstracta no"
               },
               {
-                "id": 91,
+                "id": 116,
                 "question": "¿Qué es la desestructuración de tuplas en Python?",
                 "options": [
                   "Una técnica para reorganizar elementos en una tupla",
@@ -725,7 +1055,7 @@
                 "correctAnswer": "Una técnica para reorganizar elementos en una tupla"
               },
               {
-                "id": 92,
+                "id": 117,
                 "question": "En Python, ¿cómo se implementa la herencia múltiple?",
                 "options": [
                   "Con la palabra clave `multiple`",
@@ -735,7 +1065,7 @@
                 "correctAnswer": "Separando las clases base por comas en la definición de clase"
               },
               {
-                "id": 93,
+                "id": 118,
                 "question": "¿Qué es la programación funcional en Python?",
                 "options": [
                   "Un estilo de programación que utiliza solo funciones",
@@ -745,7 +1075,7 @@
                 "correctAnswer": "Un estilo de programación que utiliza solo funciones"
               },
               {
-                "id": 94,
+                "id": 119,
                 "question": "En Python, ¿qué es un decorador?",
                 "options": [
                   "Una forma de decorar el código fuente",
@@ -755,7 +1085,7 @@
                 "correctAnswer": "Una función que toma otra función y extiende su comportamiento"
               },
               {
-                "id": 95,
+                "id": 120,
                 "question": "¿Cuál es el propósito del módulo `itertools` en Python?",
                 "options": [
                   "Realizar operaciones matemáticas avanzadas",
